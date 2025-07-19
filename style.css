@@ -1,0 +1,50 @@
+/* style.css */
+body {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+.container {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px rgba(80,120,255,0.10);
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+.card-header-gradient {
+  background: linear-gradient(90deg, #4f8cff 0%, #6a82fb 100%);
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  min-height: 56px;
+}
+.avatar-circle {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  color: #4f8cff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.card-portfolio {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(80,120,255,0.08);
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.card-portfolio:hover {
+  box-shadow: 0 8px 32px rgba(80,120,255,0.18);
+  transform: translateY(-4px) scale(1.03);
+}
+.card-body i {
+  color: #4f8cff;
+  margin-right: 6px;
+}
+.card.p-4.mb-5.shadow-sm {
+  background: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
+  border: none;
+  box-shadow: 0 4px 24px rgba(80,120,255,0.10);
+} 
